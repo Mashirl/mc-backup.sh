@@ -4,8 +4,8 @@ mc-backup by J-Bentley
 https://github.com/J-Bentley/mc-backup.sh
 Read the readme on github for setup, usage and how to automate.'
  
-serverDir="/home/jordan/Minecraft-server"
-backupDir="/home/jordan/Minecraft-backup"
+serverDir="."
+backupDir="./server_backup"
 startScript="bash start.sh"
 gracePeriod="1m"
 serverWorlds=("world" "world_nether" "world_the_end")
